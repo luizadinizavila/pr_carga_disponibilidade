@@ -55,7 +55,7 @@ table Unidade
 		dataType: int64
 		formatString: 0
 		lineageTag: bdb2fa3a-3fbc-4a5b-bafb-5ddd3f3f8182
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: UnidadeUnificadaid
 
 		annotation SummarizationSetBy = Automatic

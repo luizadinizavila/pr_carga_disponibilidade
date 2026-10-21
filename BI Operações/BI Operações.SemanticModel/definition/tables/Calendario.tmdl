@@ -42,7 +42,7 @@ table Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 5f6d50ec-a6f1-4996-bcc3-7922b21d1a45
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Mês
 
 		annotation SummarizationSetBy = Automatic
@@ -113,7 +113,7 @@ table Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 1773f788-be06-4339-9ef2-2296fc5d0102
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: numeroDiaSemana
 
 		annotation SummarizationSetBy = Automatic
@@ -157,7 +157,7 @@ table Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 7647147a-58ea-4748-898a-d9cd24803797
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Futuro
 
 		annotation SummarizationSetBy = Automatic
@@ -166,7 +166,7 @@ table Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 4b35e0fc-0b91-4824-b149-c21fe3f65090
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesAtual
 
 		annotation SummarizationSetBy = Automatic
@@ -175,7 +175,7 @@ table Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: ef93ad74-183b-4527-a899-a3e287da69dd
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoAtual
 
 		annotation SummarizationSetBy = Automatic
@@ -204,7 +204,7 @@ table Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: a970962d-ebb8-4b53-b40b-d4198f01b837
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: IndiceCompetencia
 
 		annotation SummarizationSetBy = Automatic
@@ -221,7 +221,7 @@ table Calendario
 	column DiaNum = DAY( Calendario[Data] )
 		formatString: 0
 		lineageTag: 41c40c70-8448-4838-b6a8-1337df2f0825
-		summarizeBy: sum
+		summarizeBy: none
 
 		annotation SummarizationSetBy = Automatic
 

@@ -1,4 +1,9 @@
-relationship 02047ed9-7c3f-4f7e-a6f8-ab4292166441
-	joinOnDateBehavior: datePartOnly
+relationship 94c733ea-46fb-5187-1dbe-ef6e225b0ad4
 	fromColumn: FatDisponibilidade.DtBase
 	toColumn: Calendario.Data
+
+relationship 4b657a49-e8d8-a238-6a80-3a0b31702815
+	toCardinality: many
+	fromColumn: FatDisponibilidade.IdUnidade
+	toColumn: Unidade.UnidadeUnificadaid
+

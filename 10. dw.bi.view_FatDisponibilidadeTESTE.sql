@@ -1,0 +1,23 @@
+create or alter view bi.view_fatdisponibilidadeTESTE  
+as  
+select  
+Id,   
+OrigemId,  
+DtBase,  
+IdUnidade,  
+IdPatrimonio,  
+Tag,  
+IdEquipamento,  
+NumeroOM,  
+PesoOM,  
+DataAberturaOM,  
+DataPrevEntregaOM,  
+Contrato,  
+ALmoxarifado,  
+Propriedade,  
+StatusOperacional,  
+StatusGerencial,  
+ValorReposicao,  
+StatusParque  
+FROM  
+FatDisponibilidade

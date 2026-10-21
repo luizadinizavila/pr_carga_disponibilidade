@@ -39,6 +39,76 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
 			        }
 			      ],
 			      "SemanticType": "Time"
@@ -382,6 +452,36 @@ cultureInfo pt-BR
 			          "id": {
 			            "State": "Generated"
 			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
 			        }
 			      ],
 			      "NameType": "Identifier"
@@ -451,16 +551,6 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
-			        },
-			        {
-			          "Unidade": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
 			        }
 			      ]
 			    },
@@ -506,6 +596,46 @@ cultureInfo pt-BR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sisloc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity sisloc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier sisloc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential sisloc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
 			          }
 			        }
 			      ]
@@ -574,6 +704,46 @@ cultureInfo pt-BR
 			        {
 			          "regional": {
 			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "local": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "county": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
 			          }
 			        }
 			      ]
@@ -758,16 +928,6 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
-			        },
-			        {
-			          "Mês/Dia": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
 			        }
 			      ]
 			    },
@@ -790,6 +950,16 @@ cultureInfo pt-BR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dia number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
 			          }
 			        }
 			      ]
@@ -816,108 +986,1719 @@ cultureInfo pt-BR
 			          }
 			        }
 			      ]
+			    },
+			    "metrica.OMs_sem_previsão_de_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "OMs sem Previsão de Entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OMs sem previsão de entrega": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.OMs_em_atraso1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "% OMs em Atraso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% OMs em atraso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage om em atraso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct om em atraso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.OMs_em_atraso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "OMs em Atraso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OMs em atraso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.OMs_abertas_disponibilidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "OMs Abertas (Disponibilidade)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OMs abertas (disponibilidade)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OMs abertas": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.valor_do_parque_em_OM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "% Valor do Parque em OM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% valor do parque em OM": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.valor_de_reposição_em_OM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Valor de Reposição em OM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor de reposição em OM": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.parque_com_OM_aberta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "% Parque com OM Aberta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% parque com OM aberta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage parque com om aberta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "pct parque com om aberta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.equip__com_OM_aberta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Equip. com OM Aberta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "equip. com OM aberta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.participação_no_parque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "% Participação no Parque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% participação no parque": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage participação no parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct participação no parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "% participação number parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.valor_de_reposição_do_parque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Valor de Reposição do Parque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor de reposição do parque": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.parque_equip_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Parque (Equip.)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parque (equip.)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "parque": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.data_base_disponibilidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Data Base Disponibilidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data base disponibilidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information base disponibilidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact base disponibilidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info base disponibilidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic base disponibilidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document base disponibilidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure base disponibilidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record base disponibilidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "Data": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "metrica.idade_média_OMs_abertas_dias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Idade Média OMs Abertas (dias)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idade média OMs abertas (dias)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "idade média OMs abertas": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.média_diária_equip__com_OM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Média Diária Equip. com OM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média diária equip. com OM": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.parque_com_OM_média_do_período": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "% Parque com OM (Média do Período)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% parque com OM (média do período)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "% parque com OM": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.equip__com_OM_aberta_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Equip. com OM Aberta (Mês Anterior)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "equip. com OM aberta (mês anterior)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "equip. com OM aberta": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.δ_equip__com_OM_vs_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Δ Equip. com OM vs Mês Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "δ equip. com OM vs mês anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "metrica.δ_p_p___parque_com_OM_vs_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Metricas",
+			          "ConceptualProperty": "Δ p.p. % Parque com OM vs Mês Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "δ p.p. % parque com OM vs mês anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat disponibilidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FatDisponibilidade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "fat_disponibilidade.origem_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "OrigemId"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "origem id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OrigemId": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "origem identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "origem identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "origem identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "origem credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.dt_base": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "DtBase"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt base": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DtBase": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "base": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dt headquarters": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "dt center": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "dt seat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "dt station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "headquarters": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "center": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "seat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "dt pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fat_disponibilidade.id_unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "IdUnidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id unidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IdUnidade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.id_patrimonio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "IdPatrimonio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id patrimonio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IdPatrimonio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification patrimonio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity patrimonio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier patrimonio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential patrimonio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.tag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "Tag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ticket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "docket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.id_equipamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "IdEquipamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id equipamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IdEquipamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification equipamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity equipamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier equipamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential equipamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.numero_OM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "NumeroOM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero OM": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NumeroOM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.peso_OM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "PesoOM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "peso OM": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PesoOM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "OM": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.data_abertura_OM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "DataAberturaOM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data abertura OM": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataAberturaOM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information abertura om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact abertura om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info abertura om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic abertura om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document abertura om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure abertura om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record abertura om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fat_disponibilidade.data_prev_entrega_OM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "DataPrevEntregaOM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data prev entrega OM": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataPrevEntregaOM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information prev entrega om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact prev entrega om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info prev entrega om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic prev entrega om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document prev entrega om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure prev entrega om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record prev entrega om": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fat_disponibilidade.contrato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "Contrato"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "contrato": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.A_lmoxarifado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "ALmoxarifado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "A lmoxarifado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ALmoxarifado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.propriedade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "Propriedade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "propriedade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.status_operacional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "StatusOperacional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status operacional": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StatusOperacional": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "level operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "position operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "rank operacional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.status_gerencial": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "StatusGerencial"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status gerencial": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StatusGerencial": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "level gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "position gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "rank gerencial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.valor_reposicao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "ValorReposicao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor reposicao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ValorReposicao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade.status_parque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatDisponibilidade",
+			          "ConceptualProperty": "StatusParque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status parque": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StatusParque": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "level parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "position parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "rank parque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
-			    "calendario_has_dia_do_me": {
-			      "Binding": {
-			        "ConceptualEntity": "Calendario"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "calendario": {
-			          "Target": {
-			            "Entity": "calendario"
-			          }
-			        },
-			        "calendario.dia_do_me": {
-			          "Target": {
-			            "Entity": "calendario.dia_do_me"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "calendario"
-			            },
-			            "Object": {
-			              "Role": "calendario.dia_do_me"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "calendarios_have_dia_do_me"
-			        }
-			      ]
-			    },
-			    "calendario_has_dia_num": {
-			      "Binding": {
-			        "ConceptualEntity": "Calendario"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "calendario": {
-			          "Target": {
-			            "Entity": "calendario"
-			          }
-			        },
-			        "calendario.dia_num": {
-			          "Target": {
-			            "Entity": "calendario.dia_num"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "calendario"
-			            },
-			            "Object": {
-			              "Role": "calendario.dia_num"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "calendarios_have_dia_nums"
-			        }
-			      ]
-			    },
-			    "calendario_has_mes_abrev": {
-			      "Binding": {
-			        "ConceptualEntity": "Calendario"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "calendario": {
-			          "Target": {
-			            "Entity": "calendario"
-			          }
-			        },
-			        "calendario.mes_abrev": {
-			          "Target": {
-			            "Entity": "calendario.mes_abrev"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "calendario"
-			            },
-			            "Object": {
-			              "Role": "calendario.mes_abrev"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "calendarios_have_mes_abrevs"
-			        }
-			      ]
-			    },
 			    "calendario_has_competencia": {
 			      "Binding": {
 			        "ConceptualEntity": "Calendario"
@@ -1997,6 +3778,1418 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "calendarios_have_data"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_is_named_id": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.id": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Name": {
+			              "Role": "fat_disponibilidade.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_fat_disponibilidades"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_ids"
+			        }
+			      ]
+			    },
+			    "calendario_has_mes_abrev": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.mes_abrev": {
+			          "Target": {
+			            "Entity": "calendario.mes_abrev"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.mes_abrev"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_mes_abrevs"
+			        }
+			      ]
+			    },
+			    "calendario_has_dia_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.dia_num": {
+			          "Target": {
+			            "Entity": "calendario.dia_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.dia_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dia_nums"
+			        }
+			      ]
+			    },
+			    "calendario_has_dia_do_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.dia_do_me": {
+			          "Target": {
+			            "Entity": "calendario.dia_do_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.dia_do_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dia_do_me"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_OMs_sem_previsão_de_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.OMs_sem_previsão_de_entrega": {
+			          "Target": {
+			            "Entity": "metrica.OMs_sem_previsão_de_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.OMs_sem_previsão_de_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_OMs_sem_previsão_de_entrega"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_OMs_em_atraso1": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.OMs_em_atraso1": {
+			          "Target": {
+			            "Entity": "metrica.OMs_em_atraso1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.OMs_em_atraso1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have__OMs_em_atraso"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_OMs_em_atraso": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.OMs_em_atraso": {
+			          "Target": {
+			            "Entity": "metrica.OMs_em_atraso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.OMs_em_atraso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_OMs_em_atraso"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_OMs_abertas_disponibilidade": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.OMs_abertas_disponibilidade": {
+			          "Target": {
+			            "Entity": "metrica.OMs_abertas_disponibilidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.OMs_abertas_disponibilidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_OMs_abertas_disponibilidade"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_valor_do_parque_em_OM": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.valor_do_parque_em_OM": {
+			          "Target": {
+			            "Entity": "metrica.valor_do_parque_em_OM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.valor_do_parque_em_OM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have__valor_do_parque_em_OM"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_valor_de_reposição_em_OM": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.valor_de_reposição_em_OM": {
+			          "Target": {
+			            "Entity": "metrica.valor_de_reposição_em_OM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.valor_de_reposição_em_OM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_valor_de_reposição_em_OM"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_parque_com_OM_aberta": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.parque_com_OM_aberta": {
+			          "Target": {
+			            "Entity": "metrica.parque_com_OM_aberta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.parque_com_OM_aberta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have__parque_com_OM_aberta"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_equip__com_OM_aberta": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.equip__com_OM_aberta": {
+			          "Target": {
+			            "Entity": "metrica.equip__com_OM_aberta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.equip__com_OM_aberta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_equip__com_OM_aberta"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_participação_no_parque": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.participação_no_parque": {
+			          "Target": {
+			            "Entity": "metrica.participação_no_parque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.participação_no_parque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have__participação_no_parque"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_valor_de_reposição_do_parque": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.valor_de_reposição_do_parque": {
+			          "Target": {
+			            "Entity": "metrica.valor_de_reposição_do_parque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.valor_de_reposição_do_parque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_valor_de_reposição_do_parque"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_parque_equip_": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.parque_equip_": {
+			          "Target": {
+			            "Entity": "metrica.parque_equip_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.parque_equip_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_parque_equip_"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_data_base_disponibilidade": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.data_base_disponibilidade": {
+			          "Target": {
+			            "Entity": "metrica.data_base_disponibilidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.data_base_disponibilidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_data_base_disponibilidade"
+			        }
+			      ]
+			    },
+			    "metrica_has_idade_média_OMs_abertas_dias": {
+			      "Binding": {
+			        "ConceptualEntity": "Metricas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "metrica": {
+			          "Target": {
+			            "Entity": "metrica"
+			          }
+			        },
+			        "metrica.idade_média_OMs_abertas_dias": {
+			          "Target": {
+			            "Entity": "metrica.idade_média_OMs_abertas_dias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "metrica"
+			            },
+			            "Object": {
+			              "Role": "metrica.idade_média_OMs_abertas_dias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "metricas_have_idade_média_OMs_abertas_dias"
+			        }
+			      ]
+			    },
+			    "calendario_has_metrica_média_diária_equip__com_OM": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "metrica.média_diária_equip__com_OM": {
+			          "Target": {
+			            "Entity": "metrica.média_diária_equip__com_OM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "metrica.média_diária_equip__com_OM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_média_diária_equip__com_OM"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_média_diária_equip__com_OM": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.média_diária_equip__com_OM": {
+			          "Target": {
+			            "Entity": "metrica.média_diária_equip__com_OM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.média_diária_equip__com_OM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_média_diária_equip__com_OM"
+			        }
+			      ]
+			    },
+			    "calendario_has_metrica_parque_com_OM_média_do_período": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "metrica.parque_com_OM_média_do_período": {
+			          "Target": {
+			            "Entity": "metrica.parque_com_OM_média_do_período"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "metrica.parque_com_OM_média_do_período"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have__parque_com_OM_média_do_período"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_parque_com_OM_média_do_período": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.parque_com_OM_média_do_período": {
+			          "Target": {
+			            "Entity": "metrica.parque_com_OM_média_do_período"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.parque_com_OM_média_do_período"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have__parque_com_OM_média_do_período"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_equip__com_OM_aberta_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.equip__com_OM_aberta_mês_anterior": {
+			          "Target": {
+			            "Entity": "metrica.equip__com_OM_aberta_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.equip__com_OM_aberta_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_equip__com_OM_aberta_mês_anterior"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_δ_equip__com_OM_vs_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.δ_equip__com_OM_vs_mês_anterior": {
+			          "Target": {
+			            "Entity": "metrica.δ_equip__com_OM_vs_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.δ_equip__com_OM_vs_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_δ_equip__com_OM_vs_mês_anterior"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_metrica_δ_p_p___parque_com_OM_vs_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "metrica.δ_p_p___parque_com_OM_vs_mês_anterior": {
+			          "Target": {
+			            "Entity": "metrica.δ_p_p___parque_com_OM_vs_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "metrica.δ_p_p___parque_com_OM_vs_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_δ_p_p___parque_com_OM_vs_mês_anterior"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_origem_id": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.origem_id": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.origem_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.origem_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_origem_ids"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_dt_base": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.dt_base": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.dt_base"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.dt_base"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_dt_bases"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_id_patrimonio": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.id_patrimonio": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.id_patrimonio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.id_patrimonio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_id_patrimonios"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_tag": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.tag": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.tag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_tags"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_id_equipamento": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.id_equipamento": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.id_equipamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.id_equipamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_id_equipamentos"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_numero_OM": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.numero_OM": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.numero_OM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.numero_OM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_numero_OM"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_peso_OM": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.peso_OM": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.peso_OM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.peso_OM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_peso_OM"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_data_abertura_OM": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.data_abertura_OM": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.data_abertura_OM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.data_abertura_OM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_data_abertura_OM"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_data_prev_entrega_OM": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.data_prev_entrega_OM": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.data_prev_entrega_OM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.data_prev_entrega_OM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_data_prev_entrega_OM"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_contrato": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.contrato": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.contrato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.contrato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_contratos"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_A_lmoxarifado": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.A_lmoxarifado": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.A_lmoxarifado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.A_lmoxarifado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_A_lmoxarifado"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_propriedade": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.propriedade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.propriedade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.propriedade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_propriedades"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_status_operacional": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.status_operacional": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.status_operacional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.status_operacional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_status_operacionals"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_status_gerencial": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.status_gerencial": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.status_gerencial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.status_gerencial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_status_gerencials"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_valor_reposicao": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.valor_reposicao": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.valor_reposicao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.valor_reposicao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_valor_reposicaos"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_status_parque": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "fat_disponibilidade.status_parque": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade.status_parque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade.status_parque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_status_parques"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "fat_disponibilidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_fat_disponibilidades"
+			        }
+			      ]
+			    },
+			    "fat_disponibilidade_has_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "FatDisponibilidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fat_disponibilidade": {
+			          "Target": {
+			            "Entity": "fat_disponibilidade"
+			          }
+			        },
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fat_disponibilidade"
+			            },
+			            "Object": {
+			              "Role": "unidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fat_disponibilidades_have_unidades"
 			        }
 			      ]
 			    }
