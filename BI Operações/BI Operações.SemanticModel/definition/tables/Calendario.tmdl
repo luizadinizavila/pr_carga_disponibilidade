@@ -1,0 +1,249 @@
+table Calendario
+	lineageTag: 47e0e395-e8b1-4e09-83bb-156f373ca3a4
+	dataCategory: Time
+
+	column Data
+		dataType: dateTime
+		isKey
+		formatString: Short Date
+		lineageTag: 4615588f-a36c-4f88-aaa7-15be6440499f
+		summarizeBy: none
+		sourceColumn: Data
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column anomes
+		dataType: string
+		lineageTag: 79cbad46-2709-461c-86be-cf496604ad58
+		summarizeBy: none
+		sourceColumn: anomes
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano/Mês
+		dataType: string
+		lineageTag: b26ea535-a753-43da-995f-5cf3c7ce8d0c
+		summarizeBy: none
+		sourceColumn: Ano/Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano
+		dataType: string
+		lineageTag: 9d37259e-5ff0-422f-838d-48dbfa3a09dc
+		summarizeBy: none
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês
+		dataType: int64
+		formatString: 0
+		lineageTag: 5f6d50ec-a6f1-4996-bcc3-7922b21d1a45
+		summarizeBy: sum
+		sourceColumn: Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: string
+		lineageTag: a852a9b7-297f-4a8e-af26-eb7b849ace7d
+		summarizeBy: none
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semestre
+		dataType: string
+		lineageTag: 8f097029-43b9-4793-a494-ac5b946e73ff
+		summarizeBy: none
+		sourceColumn: Semestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mês 1'
+		dataType: string
+		lineageTag: d5f052a8-6407-4563-83b3-1c3db94fbc4d
+		summarizeBy: none
+		sourceColumn: Mês 1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mês 2'
+		dataType: string
+		lineageTag: 17d73f1c-674d-4d41-8345-c1d81b51c631
+		summarizeBy: none
+		sourceColumn: Mês 2
+		sortByColumn: anomes
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mês 4'
+		dataType: string
+		lineageTag: e998327e-80c2-4770-911d-3d2c2fdf6894
+		summarizeBy: none
+		sourceColumn: Mês 4
+		sortByColumn: Mês
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mês 5'
+		dataType: string
+		lineageTag: 8306456e-9173-42cc-a626-4fbf6bb386b7
+		summarizeBy: none
+		sourceColumn: Mês 5
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dia Semana'
+		dataType: string
+		lineageTag: fa3cc383-690a-4064-9386-40db778b6217
+		summarizeBy: none
+		sourceColumn: Dia Semana
+
+		annotation SummarizationSetBy = Automatic
+
+	column numeroDiaSemana
+		dataType: int64
+		formatString: 0
+		lineageTag: 1773f788-be06-4339-9ef2-2296fc5d0102
+		summarizeBy: sum
+		sourceColumn: numeroDiaSemana
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semana
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 82cb1564-46a4-47de-81a7-12b78bec852d
+		summarizeBy: none
+		sourceColumn: Semana
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Semana2
+		dataType: string
+		lineageTag: db5c3883-6cbb-4e81-8f62-4224ef875402
+		summarizeBy: none
+		sourceColumn: Semana2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Semana Mês'
+		dataType: string
+		lineageTag: 1aad5ceb-8ba3-4bad-9857-d47f2b2414d7
+		summarizeBy: none
+		sourceColumn: Semana Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dia Mês'
+		dataType: string
+		lineageTag: df904579-42ab-468a-9997-cc06b900f00f
+		summarizeBy: none
+		sourceColumn: Dia Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column Futuro
+		dataType: int64
+		formatString: 0
+		lineageTag: 7647147a-58ea-4748-898a-d9cd24803797
+		summarizeBy: sum
+		sourceColumn: Futuro
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAtual
+		dataType: int64
+		formatString: 0
+		lineageTag: 4b35e0fc-0b91-4824-b149-c21fe3f65090
+		summarizeBy: sum
+		sourceColumn: MesAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoAtual
+		dataType: int64
+		formatString: 0
+		lineageTag: ef93ad74-183b-4527-a899-a3e287da69dd
+		summarizeBy: sum
+		sourceColumn: AnoAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column Competencia
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8690319e-4cc1-4b57-9545-6ef69c91048a
+		summarizeBy: none
+		sourceColumn: Competencia
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column FlgFechamentoOficial
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 9dd86bc6-bd8f-4453-ba65-871b819788f7
+		summarizeBy: none
+		sourceColumn: FlgFechamentoOficial
+
+		annotation SummarizationSetBy = Automatic
+
+	column IndiceCompetencia
+		dataType: int64
+		formatString: 0
+		lineageTag: a970962d-ebb8-4b53-b40b-d4198f01b837
+		summarizeBy: sum
+		sourceColumn: IndiceCompetencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAbrev = FORMAT( Calendario[Competencia], "MMM-yy" )
+		lineageTag: 469f8b1d-358f-4f35-9041-d972180e0b98
+		summarizeBy: none
+		sortByColumn: IndiceCompetencia
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaNum = DAY( Calendario[Data] )
+		formatString: 0
+		lineageTag: 41c40c70-8448-4838-b6a8-1337df2f0825
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaDoMes = FORMAT( DAY( Calendario[Data] ), "00" )
+		lineageTag: edd1d54a-a0ee-4b65-87a8-f3c214078f6b
+		summarizeBy: none
+		sortByColumn: DiaNum
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendario = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database(Servidor, Banco),
+				    bi_view_CombustivelPeriodo = Fonte{[Schema="bi",Item="view_CalendarioOperacoes"]}[Data]
+				in
+				    bi_view_CombustivelPeriodo
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

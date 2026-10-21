@@ -1,0 +1,23 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: pt-BR
+	maxParallelismPerRefresh: 1
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["Servidor","Banco","Calendario","Unidade","Metricas","FatDisponibilidade"]
+
+annotation PBI_ProTooling = ["DevMode","CalcGroup","DaxQueryView_Desktop"]
+
+ref table Calendario
+ref table Unidade
+ref table Metricas
+ref table FatDisponibilidade
+
+ref cultureInfo pt-BR
+

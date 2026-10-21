@@ -1,0 +1,174 @@
+table FatDisponibilidade
+	lineageTag: a5532be5-9b4f-4875-a633-ae15df23c326
+
+	column Id
+		dataType: int64
+		formatString: 0
+		lineageTag: ae42f4e5-d911-4714-a77a-bd2b82d08bd0
+		summarizeBy: count
+		sourceColumn: Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrigemId
+		dataType: string
+		lineageTag: 0ab59df7-46fb-4513-a134-01b1fbee24e6
+		summarizeBy: none
+		sourceColumn: OrigemId
+
+		annotation SummarizationSetBy = Automatic
+
+	column DtBase
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: afca03a2-2ff1-47e2-acb0-28d7dff633a2
+		summarizeBy: none
+		sourceColumn: DtBase
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column IdUnidade
+		dataType: string
+		lineageTag: c06d6002-b0b1-434b-a85c-66fa6ed410fb
+		summarizeBy: none
+		sourceColumn: IdUnidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column IdPatrimonio
+		dataType: int64
+		formatString: 0
+		lineageTag: c65e841a-1ccf-4d97-8d1a-28187a377e7b
+		summarizeBy: sum
+		sourceColumn: IdPatrimonio
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tag
+		dataType: string
+		lineageTag: d36032fa-f5e6-48aa-84ec-98a01e898530
+		summarizeBy: none
+		sourceColumn: Tag
+
+		annotation SummarizationSetBy = Automatic
+
+	column IdEquipamento
+		dataType: int64
+		formatString: 0
+		lineageTag: 68964540-6093-4924-933f-30bff5ed24dc
+		summarizeBy: sum
+		sourceColumn: IdEquipamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column NumeroOM
+		dataType: string
+		lineageTag: ef501730-f10e-4070-81e6-5891a8316117
+		summarizeBy: none
+		sourceColumn: NumeroOM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PesoOM
+		dataType: string
+		lineageTag: bca94224-68f8-4a63-bcc5-e31969ec9275
+		summarizeBy: none
+		sourceColumn: PesoOM
+
+		annotation SummarizationSetBy = Automatic
+
+	column DataAberturaOM
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: fbd20199-6017-4c72-80af-c4bfedf51a86
+		summarizeBy: none
+		sourceColumn: DataAberturaOM
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DataPrevEntregaOM
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e29155fe-7730-4513-9251-1592556ab8b1
+		summarizeBy: none
+		sourceColumn: DataPrevEntregaOM
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Contrato
+		dataType: string
+		lineageTag: a5d5e0f9-8122-4a00-93a8-3993bdd31b2b
+		summarizeBy: none
+		sourceColumn: Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALmoxarifado
+		dataType: string
+		lineageTag: afe06fe9-415f-4ffe-926e-7e6dc310cab0
+		summarizeBy: none
+		sourceColumn: ALmoxarifado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Propriedade
+		dataType: string
+		lineageTag: a708824c-010d-4715-9068-a339b1b6a65b
+		summarizeBy: none
+		sourceColumn: Propriedade
+
+		annotation SummarizationSetBy = Automatic
+
+	column StatusOperacional
+		dataType: string
+		lineageTag: dc447848-1191-4bcb-a2db-2c219cfaa4aa
+		summarizeBy: none
+		sourceColumn: StatusOperacional
+
+		annotation SummarizationSetBy = Automatic
+
+	column StatusGerencial
+		dataType: string
+		lineageTag: 63232716-32fc-409f-b31b-05093d35f5ba
+		summarizeBy: none
+		sourceColumn: StatusGerencial
+
+		annotation SummarizationSetBy = Automatic
+
+	column ValorReposicao
+		dataType: double
+		lineageTag: 037c00b0-ebb7-460c-b201-462a187ce2e7
+		summarizeBy: sum
+		sourceColumn: ValorReposicao
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column StatusParque
+		dataType: string
+		lineageTag: d2eb2daa-f87d-4097-bb1b-4b3408c2f38a
+		summarizeBy: none
+		sourceColumn: StatusParque
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FatDisponibilidade = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database("bi.ageradora.local", "DW"),
+				    bi_FatVerba = Fonte{[Schema="bi",Item="view_fatdisponibilidade"]}[Data]
+				in
+				    bi_FatVerba
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

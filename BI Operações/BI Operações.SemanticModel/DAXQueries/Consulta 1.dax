@@ -1,0 +1,86 @@
+DEFINE
+
+    -- Fur | Financial Rate Inoperative Equipments %
+    MEASURE 'Metricas'[Fur Individual Fleet Purchase Cost IE (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Acm Fur Individual Fleet Purchase Cost IE (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação Fur Individual Fleet Purchase Cost IE] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação ACM Fur Individual Fleet Purchase Cost IE] =
+        BLANK()
+
+
+    MEASURE 'Metricas'[Fleet Value (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Acm Fleet Value (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação Fleet Value] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação ACM Fleet Value] =
+        BLANK()
+
+
+    -- Fur | Fisical Rate Inoperative Equipments %
+    MEASURE 'Metricas'[Machines Unavailable IE (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Acm Machine Unavailable IE (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação Machines Unavailable IE] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação ACM Machine Unavailable IE] =
+        BLANK()
+
+
+    MEASURE 'Metricas'[Fleet Holding (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Acm Fleet Holding (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação Fleet Holding] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação ACM Fleet Holding] =
+        BLANK()
+
+
+    -- Fur | Financial Rate Schedule Pickup %
+    MEASURE 'Metricas'[Individual Fleet Purchase Cost SP (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Acm Individual Fleet Purchase Cost SP (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação Individual Fleet Purchase Cost SP] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação ACM Individual Fleet Purchase Cost SP] =
+        BLANK()
+
+
+    -- Fur | Fisical Rate Schedule Pickup %
+    MEASURE 'Metricas'[Machines Unavailable SP (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Acm Machine Unavailable SP (Orçado)] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação Machines Unavailable SP] =
+        BLANK()
+
+    MEASURE 'Metricas'[Variação ACM Machine Unavailable SP] =
+        BLANK()
+
+
+EVALUATE
+    ROW("OK", 1)

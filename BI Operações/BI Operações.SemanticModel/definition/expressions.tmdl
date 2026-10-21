@@ -1,0 +1,14 @@
+expression Servidor = "bi.ageradora.local" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: c350f711-cc56-4217-b591-3e37097cb418
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Text
+
+expression Banco = "DW" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: 1801d078-a1f5-4b89-b7e8-d776648c2a5c
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navegação
+

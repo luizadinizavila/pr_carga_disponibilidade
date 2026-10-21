@@ -1,0 +1,218 @@
+table Metricas
+	lineageTag: 1f93406b-dc0e-4d9f-9bb1-b319b837725a
+
+	/// Último dia de foto de disponibilidade no contexto. Todas as medidas de estoque leem esse dia (fato é foto diária, não soma no tempo).
+	measure 'Data Base Disponibilidade' = MAX ( FatDisponibilidade[DtBase] )
+		formatString: dd/mm/yyyy
+		displayFolder: Disponibilidade\1. Parque
+		lineageTag: 747091f2-1a95-4814-ba2f-61c384ea422c
+
+	/// Equipamentos (Tag distinta) na última foto do período. Conta Tag porque o grão do fato é Tag x OM: o mesmo equipamento repete uma linha por OM.
+	measure 'Parque (Equip.)' =
+			VAR _dt = [Data Base Disponibilidade]
+			RETURN
+			    CALCULATE (
+			        DISTINCTCOUNT ( FatDisponibilidade[Tag] ),
+			        FatDisponibilidade[DtBase] = _dt
+			    )
+		formatString: #,0
+		displayFolder: Disponibilidade\1. Parque
+		lineageTag: ced497cf-b8e0-4506-b9df-e971c2fe1638
+
+	/// Soma do valor de reposição, uma vez por Tag (não por linha de OM), na última foto do período.
+	measure 'Valor de Reposição do Parque' =
+			VAR _dt = [Data Base Disponibilidade]
+			RETURN
+			    CALCULATE (
+			        SUMX (
+			            VALUES ( FatDisponibilidade[Tag] ),
+			            CALCULATE ( MAX ( FatDisponibilidade[ValorReposicao] ) )
+			        ),
+			        FatDisponibilidade[DtBase] = _dt
+			    )
+		formatString: \R$ #,0;-\R$ #,0;\R$ #,0
+		displayFolder: Disponibilidade\1. Parque
+		lineageTag: 333cf5e3-f485-462a-b4e3-06a043ae1b58
+
+	/// Fatia do parque total da empresa na mesma data. Use com Unidade ou com qualquer status do fato no eixo.
+	measure '% Participação no Parque' =
+			DIVIDE (
+			    [Parque (Equip.)],
+			    CALCULATE (
+			        [Parque (Equip.)],
+			        REMOVEFILTERS ( Unidade ),
+			        REMOVEFILTERS (
+			            FatDisponibilidade[StatusOperacional],
+			            FatDisponibilidade[StatusGerencial],
+			            FatDisponibilidade[StatusParque],
+			            FatDisponibilidade[Propriedade],
+			            FatDisponibilidade[ALmoxarifado],
+			            FatDisponibilidade[Contrato]
+			        )
+			    )
+			)
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Disponibilidade\1. Parque
+		lineageTag: 358c5dc0-7e49-4465-bfaa-c3b2df2150a1
+
+	/// Equipamentos com pelo menos uma OM na foto. NumeroOM vazio ou em branco = sem OM.
+	measure 'Equip. com OM Aberta' =
+			VAR _dt = [Data Base Disponibilidade]
+			RETURN
+			    CALCULATE (
+			        DISTINCTCOUNT ( FatDisponibilidade[Tag] ),
+			        FatDisponibilidade[DtBase] = _dt,
+			        FatDisponibilidade[NumeroOM] <> ""
+			    )
+		formatString: #,0
+		displayFolder: Disponibilidade\2. Equipamentos em OM
+		lineageTag: df44d991-b6a2-4b44-8f2c-6dd7b3c1cb24
+
+	/// Taxa física de indisponibilidade por manutenção: equipamentos em OM / parque.
+	measure '% Parque com OM Aberta' = DIVIDE ( [Equip. com OM Aberta], [Parque (Equip.)] )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Disponibilidade\2. Equipamentos em OM
+		lineageTag: 7ca3e89c-3eee-400e-b09d-0ea37b090846
+
+	/// Valor de reposição dos equipamentos parados em OM, uma vez por Tag.
+	measure 'Valor de Reposição em OM' =
+			VAR _dt = [Data Base Disponibilidade]
+			RETURN
+			    CALCULATE (
+			        SUMX (
+			            VALUES ( FatDisponibilidade[Tag] ),
+			            CALCULATE ( MAX ( FatDisponibilidade[ValorReposicao] ) )
+			        ),
+			        FatDisponibilidade[DtBase] = _dt,
+			        FatDisponibilidade[NumeroOM] <> ""
+			    )
+		formatString: \R$ #,0;-\R$ #,0;\R$ #,0
+		displayFolder: Disponibilidade\2. Equipamentos em OM
+		lineageTag: 927a52e2-4620-40d0-b9c1-09aafe260002
+
+	/// Taxa financeira de indisponibilidade: quanto do capital do parque está parado em OM.
+	measure '% Valor do Parque em OM' = DIVIDE ( [Valor de Reposição em OM], [Valor de Reposição do Parque] )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Disponibilidade\2. Equipamentos em OM
+		lineageTag: a640da74-ea9a-4db3-9125-32ffdab50f6a
+
+	/// OMs distintas presentes na última foto do período.
+	measure 'OMs Abertas (Disponibilidade)' =
+			VAR _dt = [Data Base Disponibilidade]
+			RETURN
+			    CALCULATE (
+			        DISTINCTCOUNT ( FatDisponibilidade[NumeroOM] ),
+			        FatDisponibilidade[DtBase] = _dt,
+			        FatDisponibilidade[NumeroOM] <> ""
+			    )
+		formatString: #,0
+		displayFolder: Disponibilidade\3. OMs
+		lineageTag: f3f15049-4f8f-400e-9832-d290004e54d5
+
+	/// OMs cuja previsão de entrega já passou na data da foto.
+	measure 'OMs em Atraso' =
+			VAR _dt = [Data Base Disponibilidade]
+			RETURN
+			    CALCULATE (
+			        DISTINCTCOUNT ( FatDisponibilidade[NumeroOM] ),
+			        FatDisponibilidade[DtBase] = _dt,
+			        FatDisponibilidade[NumeroOM] <> "",
+			        NOT ISBLANK ( FatDisponibilidade[DataPrevEntregaOM] )
+			            && FatDisponibilidade[DataPrevEntregaOM] < _dt
+			    )
+		formatString: #,0
+		displayFolder: Disponibilidade\3. OMs
+		lineageTag: edc31c6e-6460-4a2e-a5bb-306b60efc52b
+
+	measure '% OMs em Atraso' = DIVIDE ( [OMs em Atraso], [OMs Abertas (Disponibilidade)] )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Disponibilidade\3. OMs
+		lineageTag: 38013a6b-35a9-463c-9d3d-bdcc20025174
+
+	/// Buraco de dado visível: OM aberta sem data prevista. Fica fora do cálculo de atraso.
+	measure 'OMs sem Previsão de Entrega' =
+			VAR _dt = [Data Base Disponibilidade]
+			RETURN
+			    CALCULATE (
+			        DISTINCTCOUNT ( FatDisponibilidade[NumeroOM] ),
+			        FatDisponibilidade[DtBase] = _dt,
+			        FatDisponibilidade[NumeroOM] <> "",
+			        ISBLANK ( FatDisponibilidade[DataPrevEntregaOM] )
+			    )
+		formatString: #,0
+		displayFolder: Disponibilidade\3. OMs
+		lineageTag: d63359c2-67eb-443c-910e-d93ca42e7143
+
+	/// Dias entre a abertura da OM e a data da foto, média por OM.
+	measure 'Idade Média OMs Abertas (dias)' =
+			VAR _dt = [Data Base Disponibilidade]
+			RETURN
+			    CALCULATE (
+			        AVERAGEX (
+			            VALUES ( FatDisponibilidade[NumeroOM] ),
+			            VAR _abertura = CALCULATE ( MIN ( FatDisponibilidade[DataAberturaOM] ) )
+			            RETURN IF ( NOT ISBLANK ( _abertura ), DATEDIFF ( _abertura, _dt, DAY ) )
+			        ),
+			        FatDisponibilidade[DtBase] = _dt,
+			        FatDisponibilidade[NumeroOM] <> ""
+			    )
+		formatString: #,0.0
+		displayFolder: Disponibilidade\3. OMs
+		lineageTag: 75df7f55-9488-4a46-8e6c-6f2811d089d0
+
+	/// Média dos dias com foto no período (mês, ano...). Dia com parque e zero OM conta como zero.
+	measure 'Média Diária Equip. com OM' =
+			AVERAGEX (
+			    FILTER ( VALUES ( Calendario[Data] ), NOT ISBLANK ( [Parque (Equip.)] ) ),
+			    [Equip. com OM Aberta] + 0
+			)
+		formatString: #,0.0
+		displayFolder: Disponibilidade\4. Período e Comparação
+		lineageTag: 44d0e777-ccf7-470f-880e-4032e832ce41
+
+	/// Equipamento-dia em OM / equipamento-dia de parque. Versão do % físico que não depende de qual dia foi a última foto.
+	measure '% Parque com OM (Média do Período)' =
+			VAR _dias = FILTER ( VALUES ( Calendario[Data] ), NOT ISBLANK ( [Parque (Equip.)] ) )
+			RETURN
+			    DIVIDE (
+			        SUMX ( _dias, [Equip. com OM Aberta] + 0 ),
+			        SUMX ( _dias, [Parque (Equip.)] )
+			    )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Disponibilidade\4. Período e Comparação
+		lineageTag: 237e0130-6443-41b3-8e40-37371089dbe5
+
+	/// Mesma medida, um mês antes. Depende do DW guardar o histórico de fotos.
+	measure 'Equip. com OM Aberta (Mês Anterior)' = CALCULATE ( [Equip. com OM Aberta], DATEADD ( Calendario[Data], -1, MONTH ) )
+		formatString: #,0
+		displayFolder: Disponibilidade\4. Período e Comparação
+		lineageTag: ee410a0d-4c6c-4353-bc99-64390eff9d54
+
+	measure 'Δ Equip. com OM vs Mês Anterior' =
+			VAR _ant = [Equip. com OM Aberta (Mês Anterior)]
+			RETURN IF ( NOT ISBLANK ( _ant ), [Equip. com OM Aberta] - _ant )
+		formatString: +#,0;-#,0;0
+		displayFolder: Disponibilidade\4. Período e Comparação
+		lineageTag: 7839d047-5ba4-4ff8-825f-750d2a33b952
+
+	/// Variação em pontos percentuais da taxa física.
+	measure 'Δ p.p. % Parque com OM vs Mês Anterior' =
+			VAR _ant = CALCULATE ( [% Parque com OM Aberta], DATEADD ( Calendario[Data], -1, MONTH ) )
+			RETURN IF ( NOT ISBLANK ( _ant ), [% Parque com OM Aberta] - _ant )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: Disponibilidade\4. Período e Comparação
+		lineageTag: 97f19593-491f-4aff-bd73-523e0802fdca
+
+	partition Metricas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação

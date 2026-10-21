@@ -1,0 +1,4 @@
+relationship 02047ed9-7c3f-4f7e-a6f8-ab4292166441
+	joinOnDateBehavior: datePartOnly
+	fromColumn: FatDisponibilidade.DtBase
+	toColumn: Calendario.Data

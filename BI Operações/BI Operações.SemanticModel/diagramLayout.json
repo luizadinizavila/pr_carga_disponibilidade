@@ -1,0 +1,1187 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 3885.9999999999786,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 12289.541470928471,
+            "y": 236.96192263705407
+          },
+          "nodeIndex": "Calendario",
+          "nodeLineageTag": "47e0e395-e8b1-4e09-83bb-156f373ca3a4",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 53,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 13816.837156569609,
+            "y": 389.42738578474541
+          },
+          "nodeIndex": "Unidade",
+          "nodeLineageTag": "0bcbd284-7b0e-4144-9aa6-cb809c07a5ce",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 54
+        },
+        {
+          "location": {
+            "x": 1136,
+            "y": 416.24995114394085
+          },
+          "nodeIndex": "Metricas",
+          "nodeLineageTag": "1f93406b-dc0e-4d9f-9bb1-b319b837725a",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 50
+        },
+        {
+          "location": {
+            "x": 3301.5334297846816,
+            "y": 845.39450812172936
+          },
+          "nodeIndex": "PnL_CategoriaCodigoLoxam",
+          "nodeLineageTag": "f01c5828-8a80-4c21-9ae7-293a4b16d16b",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 41
+        },
+        {
+          "location": {
+            "x": 3015.0489515701279,
+            "y": 616.04435552153609
+          },
+          "nodeIndex": "PnL_Conta",
+          "nodeLineageTag": "ec4d0a6c-74f9-4904-b1cb-7a76129f061b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 43
+        },
+        {
+          "location": {
+            "x": 3823.2300560328313,
+            "y": 314.07920835465745
+          },
+          "nodeIndex": "PnL_Empresa",
+          "nodeLineageTag": "b5b94e61-ac7d-43c2-a933-240ee1689417",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 45
+        },
+        {
+          "location": {
+            "x": 3594.6017782286926,
+            "y": 648.35792966241547
+          },
+          "nodeIndex": "PnL_IndicadoresLoxam",
+          "nodeLineageTag": "44a646db-4c8c-4511-8e47-d14c1d926d3d",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 46
+        },
+        {
+          "location": {
+            "x": 2902.3910874857229,
+            "y": 260.28435692342919
+          },
+          "nodeIndex": "PnL_Item",
+          "nodeLineageTag": "1bc1ab69-36a6-48eb-afab-4551be16197f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 47
+        },
+        {
+          "location": {
+            "x": 3340.1437899302791,
+            "y": 260.27573470783352
+          },
+          "nodeIndex": "PnL_Lancamento",
+          "nodeLineageTag": "f5b7398f-0682-4da5-8302-f8fccb571f3e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 48
+        },
+        {
+          "location": {
+            "x": 5293.4306761469552,
+            "y": 452.462088693923
+          },
+          "nodeIndex": "z.OnePage",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 20
+        },
+        {
+          "location": {
+            "x": 5811.6306915501518,
+            "y": 471.69725406086468
+          },
+          "nodeIndex": "PnL_FUR",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 21
+        },
+        {
+          "location": {
+            "x": 5293.346819069111,
+            "y": 675.611669246715
+          },
+          "nodeIndex": "z.OnePage.Orc",
+          "nodeLineageTag": "32fcadb9-b8d5-4e73-bccd-4a4ff386cacb",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 22
+        },
+        {
+          "location": {
+            "x": 5009.2300560328313,
+            "y": 326.09843840142196
+          },
+          "nodeIndex": "z.OnePage.Def",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 23
+        },
+        {
+          "location": {
+            "x": 7253.6306915501482,
+            "y": 1395.6972540608597
+          },
+          "nodeIndex": "PnL_FURMeta",
+          "nodeLineageTag": "505ebcbd-dd1e-4211-beea-b1d30e9d6e18",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 28
+        },
+        {
+          "location": {
+            "x": 10072.013741564846,
+            "y": 507.69725406086468
+          },
+          "nodeIndex": "UltimaCargaPnL",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 39
+        },
+        {
+          "location": {
+            "x": 15308.937062775107,
+            "y": 74
+          },
+          "nodeIndex": "z1.FreteFrotas",
+          "nodeLineageTag": "ce0726a9-8ef7-4cd5-b28d-6e1cceaf57b7",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 17
+        },
+        {
+          "location": {
+            "x": 15715.052477926389,
+            "y": 74
+          },
+          "nodeIndex": "z1.OnePageIndicador",
+          "nodeLineageTag": "202b6b19-1788-4fc1-a0e7-9c86aaf8f26e",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 18
+        },
+        {
+          "location": {
+            "x": 16121.167893077671,
+            "y": 74
+          },
+          "nodeIndex": "z1.OnePageIndicadorOrç",
+          "nodeLineageTag": "16db4430-f864-48c3-8b13-8dc0e0c8f0d5",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 19
+        },
+        {
+          "location": {
+            "x": 17346.6849171285,
+            "y": 0
+          },
+          "nodeIndex": "z1.FreteMesAcm",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 18635.144900345105,
+            "y": 1114.0226528669866
+          },
+          "nodeIndex": "Manutencao_Filial",
+          "nodeLineageTag": "4af85c22-5fa0-4854-b9f1-73dca852c730",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 56
+        },
+        {
+          "location": {
+            "x": 19078.498608661557,
+            "y": 0
+          },
+          "nodeIndex": "FatOMItem",
+          "nodeLineageTag": "8006a463-e069-4b94-a393-65884cfd47f0",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 7,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 19361.066728310114,
+            "y": 0
+          },
+          "nodeIndex": "FatParque",
+          "nodeLineageTag": "79b89ea9-1700-4c5c-9699-4411f63eea41",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 8,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 19650.770255200307,
+            "y": 5.3515554312341393
+          },
+          "nodeIndex": "FatPC",
+          "nodeLineageTag": "f6de7751-fb90-4980-b761-8add7995c877",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 66,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 19947.60918933215,
+            "y": 7.1354072416455239
+          },
+          "nodeIndex": "FatSC",
+          "nodeLineageTag": "93ea13c2-d09b-423d-be5c-116d85c7bfa4",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 9,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 18341.078241755054,
+            "y": 331.52562225322578
+          },
+          "nodeIndex": "Manutencao_Equipamento",
+          "nodeLineageTag": "7ac9fb5c-ada1-4e3b-b0ca-1a1f54c16a32",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 65,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 19258.352821306755,
+            "y": 374.66102949487117
+          },
+          "nodeIndex": "Manutencao_EtapaOM",
+          "nodeLineageTag": "c6f86654-2125-4e74-844b-4a2caade07ca",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 58,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 19820.985675189888,
+            "y": 351.47095595952328
+          },
+          "nodeIndex": "Manutencao_FaixaDias",
+          "nodeLineageTag": "729d0def-88ab-46ee-b35b-3b769b1445b5",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 60,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 19249.463526651638,
+            "y": 614.50709855464834
+          },
+          "nodeIndex": "Manutencao_Finalidade",
+          "nodeLineageTag": "338bb72d-9f88-4e77-b1c3-028fe5400a3b",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 63,
+          "expandedHeight": 152
+        },
+        {
+          "location": {
+            "x": 19536.978488334236,
+            "y": 340.44488130528265
+          },
+          "nodeIndex": "Manutencao_Patrimonio",
+          "nodeLineageTag": "b6d3d489-045b-4c48-99c1-eb32a24d0790",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 59,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 18959.04046615789,
+            "y": 385.31199104885815
+          },
+          "nodeIndex": "Manutencao_Peso",
+          "nodeLineageTag": "f91354a9-e290-4b19-8a61-00d04cfb1a39",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 57,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 19544.833429179431,
+            "y": 637.37420829822383
+          },
+          "nodeIndex": "Manutencao_StatusParque",
+          "nodeLineageTag": "610a1851-cc92-4635-b228-57b0b48a4f0c",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 61,
+          "expandedHeight": 224
+        },
+        {
+          "location": {
+            "x": 18646.146865732349,
+            "y": 351.4188066510419
+          },
+          "nodeIndex": "Manutencao_StatusPC",
+          "nodeLineageTag": "b4cd8c61-7f32-4a36-b8cf-a26844bc87c9",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 62,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 18963.327703382267,
+            "y": 590.02013588176862
+          },
+          "nodeIndex": "Manutencao_StatusSC",
+          "nodeLineageTag": "6ded3f7f-2259-4426-b71a-64bcf453121d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 55,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 30009.978260887925,
+            "y": 347.59823067856843
+          },
+          "nodeIndex": "Monitoramento_SC",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20102.611401242531,
+            "y": 349.10127599276478
+          },
+          "nodeIndex": "Manutencao_Item",
+          "nodeLineageTag": "c4b3d712-35d2-46db-bce1-56e4d481d866",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 71,
+          "expandedHeight": 248
+        },
+        {
+          "location": {
+            "x": 27222.365991851759,
+            "y": 299.59823067856843
+          },
+          "nodeIndex": "z1.MatrizAux",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20005.0696665623,
+            "y": 503.19646135713685
+          },
+          "nodeIndex": "FatOrcamento",
+          "nodeLineageTag": "6327e92b-b923-4104-89bb-bbaa36accb22",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 21248.9111296314,
+            "y": 249.59823067856843
+          },
+          "nodeIndex": "FatTransferenciaVerba",
+          "nodeLineageTag": "521eec22-363e-47df-b210-5761f7194113",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20730.751574111848,
+            "y": 325.14806422654021
+          },
+          "nodeIndex": "FatVerba",
+          "nodeLineageTag": "9899c8f0-162c-4c28-956b-eb88bf84e346",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 22045.371777927448,
+            "y": 249.59823067856843
+          },
+          "nodeIndex": "LancamentoOperacoes",
+          "nodeLineageTag": "fc8e827b-4501-4b66-a40f-a648c23d0d50",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20332.098012419512,
+            "y": 159.66585716801973
+          },
+          "nodeIndex": "Manutencao_ClasseEscadinha",
+          "nodeLineageTag": "609a9027-7d4a-42b6-bfbc-d679fece87d0",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 22841.832426223496,
+            "y": 249.59823067856843
+          },
+          "nodeIndex": "Manutencao_Cliente",
+          "nodeLineageTag": "01cf7a25-1009-4dca-becc-3ad54c55f35d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20340.77484171779,
+            "y": 400.19338089913617
+          },
+          "nodeIndex": "Manutencao_ContaOrcamentaria",
+          "nodeLineageTag": "cc8e6397-17ff-45ba-b144-7418c4669dbb",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 23240.062750371519,
+            "y": 249.59823067856843
+          },
+          "nodeIndex": "Manutencao_Contrato",
+          "nodeLineageTag": "eb516b33-025d-4e53-ad23-3e152fa89f28",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 28018.826640147807,
+            "y": 311.59823067856843
+          },
+          "nodeIndex": "Manutencao_CustoMedioGiro",
+          "nodeLineageTag": "a8de72da-da17-4d33-acb9-a117aace7097",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20850.680805483378,
+            "y": 148.80529685900967
+          },
+          "nodeIndex": "Manutencao_FilialOrcamento",
+          "nodeLineageTag": "e7ebf3ed-7e31-4a22-b1b1-f9bc1e87e99c",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20340.77484171779,
+            "y": 0
+          },
+          "nodeIndex": "Manutencao_TipoSaldo",
+          "nodeLineageTag": "69d7d668-1d86-4a1f-aa7e-5dd0bb9f801d",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 23638.293074519541,
+            "y": 249.59823067856843
+          },
+          "nodeIndex": "Manutencao_ViewAtendimento",
+          "nodeLineageTag": "ffbdf75c-fc91-41c7-baaa-1a8524686862",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 24036.523398667567,
+            "y": 249.59823067856843
+          },
+          "nodeIndex": "Manutencao_ViewCicloOM",
+          "nodeLineageTag": "8a4a8c4e-7e84-42e7-b294-147bf1ea2147",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 24434.753722815592,
+            "y": 249.59823067856843
+          },
+          "nodeIndex": "Manutencao_ViewGestaoSC",
+          "nodeLineageTag": "3f0c51a8-d5fd-4f99-b70d-8982fa705e9d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 24832.984046963615,
+            "y": 249.59823067856843
+          },
+          "nodeIndex": "Manutencao_ViewPCSemNota",
+          "nodeLineageTag": "fdc4fce9-f026-4704-b029-ae2855115387",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 28417.056964295829,
+            "y": 335.59823067856843
+          },
+          "nodeIndex": "TabelaComparacoes",
+          "nodeLineageTag": "e86713b9-3a96-4664-b2e2-b05368904a13",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 28815.287288443855,
+            "y": 335.59823067856843
+          },
+          "nodeIndex": "UltimaCargaOperacoes",
+          "nodeLineageTag": "4233da9d-77da-4972-baff-92714109cf01",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 29213.517612591881,
+            "y": 335.59823067856843
+          },
+          "nodeIndex": "z.SegmentoGiro",
+          "nodeLineageTag": "ac2d8615-8084-42a5-b17a-8d5e0411b036",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 29611.747936739903,
+            "y": 335.59823067856843
+          },
+          "nodeIndex": "z.TipoGasto",
+          "nodeLineageTag": "7a3bd4a9-dea8-44bf-a8a6-5355d7ba1a48",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 27620.596315999785,
+            "y": 299.59823067856843
+          },
+          "nodeIndex": "z1.Matriz",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 50.000000000000277,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 100.68749250572714,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 132.72849647837694,
+            "y": 590.95782955848767
+          },
+          "nodeIndex": "Calendario",
+          "nodeLineageTag": "47e0e395-e8b1-4e09-83bb-156f373ca3a4",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 24,
+          "expandedHeight": 189
+        },
+        {
+          "location": {
+            "x": 844.54635345018175,
+            "y": 0
+          },
+          "nodeIndex": "FatOMItem",
+          "nodeLineageTag": "8006a463-e069-4b94-a393-65884cfd47f0",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 10,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1114.7436498525917,
+            "y": 0
+          },
+          "nodeIndex": "FatParque",
+          "nodeLineageTag": "79b89ea9-1700-4c5c-9699-4411f63eea41",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 33,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1388.101148552106,
+            "y": 0
+          },
+          "nodeIndex": "FatPC",
+          "nodeLineageTag": "f6de7751-fb90-4980-b761-8add7995c877",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 11,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1669.3592012152412,
+            "y": 0
+          },
+          "nodeIndex": "FatSC",
+          "nodeLineageTag": "93ea13c2-d09b-423d-be5c-116d85c7bfa4",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 12,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 134.80846637453539,
+            "y": 461.95829131164209
+          },
+          "nodeIndex": "Manutencao_Equipamento",
+          "nodeLineageTag": "7ac9fb5c-ada1-4e3b-b0ca-1a1f54c16a32",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 26,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 397.37772840993557,
+            "y": 459.6155031417893
+          },
+          "nodeIndex": "Manutencao_EtapaOM",
+          "nodeLineageTag": "c6f86654-2125-4e74-844b-4a2caade07ca",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 25,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 662.83472136668922,
+            "y": 462.77570543889345
+          },
+          "nodeIndex": "Manutencao_FaixaDias",
+          "nodeLineageTag": "729d0def-88ab-46ee-b35b-3b769b1445b5",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 15,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 926.71161317489111,
+            "y": 461.19560429034135
+          },
+          "nodeIndex": "Manutencao_Filial",
+          "nodeLineageTag": "4af85c22-5fa0-4854-b9f1-73dca852c730",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 28,
+          "expandedHeight": 248
+        },
+        {
+          "location": {
+            "x": 1184.2681003888842,
+            "y": 465.93590773599772
+          },
+          "nodeIndex": "Manutencao_Finalidade",
+          "nodeLineageTag": "338bb72d-9f88-4e77-b1c3-028fe5400a3b",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 29,
+          "expandedHeight": 152
+        },
+        {
+          "location": {
+            "x": 1456.0454979398469,
+            "y": 467.51600888454982
+          },
+          "nodeIndex": "Manutencao_Item",
+          "nodeLineageTag": "c4b3d712-35d2-46db-bce1-56e4d481d866",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 31,
+          "expandedHeight": 248
+        },
+        {
+          "location": {
+            "x": 1459.2057002369509,
+            "y": 604.98480880858313
+          },
+          "nodeIndex": "Manutencao_Patrimonio",
+          "nodeLineageTag": "b6d3d489-045b-4c48-99c1-eb32a24d0790",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 18,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 400.53793070703995,
+            "y": 593.92410076871829
+          },
+          "nodeIndex": "Manutencao_Peso",
+          "nodeLineageTag": "f91354a9-e290-4b19-8a61-00d04cfb1a39",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 16,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 667.57502481234576,
+            "y": 595.50420191727039
+          },
+          "nodeIndex": "Manutencao_StatusParque",
+          "nodeLineageTag": "610a1851-cc92-4635-b228-57b0b48a4f0c",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 27,
+          "expandedHeight": 224
+        },
+        {
+          "location": {
+            "x": 917.83067614103015,
+            "y": 596.04914466877131
+          },
+          "nodeIndex": "Manutencao_StatusPC",
+          "nodeLineageTag": "b4cd8c61-7f32-4a36-b8cf-a26844bc87c9",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 17,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 1189.0084038345408,
+            "y": 603.40470766003091
+          },
+          "nodeIndex": "Manutencao_StatusSC",
+          "nodeLineageTag": "6ded3f7f-2259-4426-b71a-64bcf453121d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 30,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 1719.9223897480483,
+            "y": 604.984808808583
+          },
+          "nodeIndex": "Manutencao_TipoSaldo",
+          "nodeLineageTag": "69d7d668-1d86-4a1f-aa7e-5dd0bb9f801d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 19,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 1930.0758425054787,
+            "y": 0
+          },
+          "nodeIndex": "FatVerba",
+          "nodeLineageTag": "9899c8f0-162c-4c28-956b-eb88bf84e346",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 13,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1719.9223897480485,
+            "y": 465.93590773599783
+          },
+          "nodeIndex": "Manutencao_ContaOrcamentaria",
+          "nodeLineageTag": "cc8e6397-17ff-45ba-b144-7418c4669dbb",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 20,
+          "expandedHeight": 128
+        },
+        {
+          "location": {
+            "x": 1975.89877581349,
+            "y": 469.0961040054944
+          },
+          "nodeIndex": "Manutencao_FilialOrcamento",
+          "nodeLineageTag": "e7ebf3ed-7e31-4a22-b1b1-f9bc1e87e99c",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 32,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 2193.952734313681,
+            "y": 0
+          },
+          "nodeIndex": "FatTransferenciaVerba",
+          "nodeLineageTag": "521eec22-363e-47df-b210-5761f7194113",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 14,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1979.0589781105932,
+            "y": 608.14501110568722
+          },
+          "nodeIndex": "Manutencao_Cliente",
+          "nodeLineageTag": "01cf7a25-1009-4dca-becc-3ad54c55f35d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 21,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 2236.6154653245871,
+            "y": 611.30521340279142
+          },
+          "nodeIndex": "Manutencao_Contrato",
+          "nodeLineageTag": "eb516b33-025d-4e53-ad23-3e152fa89f28",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 22,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 822.72070369408118,
+            "y": 757.57461186667649
+          },
+          "nodeIndex": "Manutencao_ViewCicloOM",
+          "nodeLineageTag": "8a4a8c4e-7e84-42e7-b294-147bf1ea2147",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 23,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1084.2466582544114,
+            "y": 761.49750118508132
+          },
+          "nodeIndex": "Manutencao_ViewGestaoSC",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 4,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1347.0802425875434,
+            "y": 762.80513095788308
+          },
+          "nodeIndex": "Manutencao_ViewPCSemNota",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 5,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1622.9901246486918,
+            "y": 762.80513095788308
+          },
+          "nodeIndex": "Manutencao_ViewAtendimento",
+          "nodeLineageTag": "ffbdf75c-fc91-41c7-baaa-1a8524686862",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 6,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1020.1727993871305,
+            "y": 915.79781437567624
+          },
+          "nodeIndex": "Manutencao_ClasseEscadinha",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 1,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 1309.1589791762956,
+            "y": 918.41307392127965
+          },
+          "nodeIndex": "Manutencao_CustoMedioGiro",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 2,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 1591.6070101014523,
+            "y": 914.49018460287459
+          },
+          "nodeIndex": "FatOrcamento",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 3,
+          "expandedHeight": 296
+        }
+      ],
+      "name": "Disponibilidade",
+      "zoomValue": 76.474245294786954,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Disponibilidade",
+  "defaultDiagram": "Todas as tabelas"
+}

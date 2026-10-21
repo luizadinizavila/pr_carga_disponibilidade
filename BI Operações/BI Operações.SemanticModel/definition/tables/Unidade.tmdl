@@ -1,0 +1,92 @@
+table Unidade
+	lineageTag: 0bcbd284-7b0e-4144-9aa6-cb809c07a5ce
+
+	column Id
+		dataType: int64
+		formatString: 0
+		lineageTag: 519374a6-5430-4798-bc65-255b9c41fa6c
+		summarizeBy: count
+		sourceColumn: Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column ApelidoUnidade
+		dataType: string
+		lineageTag: 025f19fc-dd2d-4115-83f9-172ec8404858
+		summarizeBy: none
+		sourceColumn: ApelidoUnidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Unidade
+		dataType: string
+		lineageTag: f6fdb442-414e-4bbd-bcf4-748fe0bafd70
+		summarizeBy: none
+		sourceColumn: Unidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column UnidadeUnificada2
+		dataType: string
+		lineageTag: 655dcb07-f993-4888-b4ae-dbea8c07c490
+		summarizeBy: none
+		sourceColumn: UnidadeUnificada2
+
+		annotation SummarizationSetBy = Automatic
+
+	column codigoProtheus
+		dataType: string
+		lineageTag: 947991ef-5d08-438d-bd2f-2310f57c1e39
+		summarizeBy: none
+		sourceColumn: codigoProtheus
+
+		annotation SummarizationSetBy = Automatic
+
+	column IdSisloc
+		dataType: int64
+		formatString: 0
+		lineageTag: e68eb101-cf66-4cdc-bda6-59b41890d0ee
+		summarizeBy: sum
+		sourceColumn: IdSisloc
+
+		annotation SummarizationSetBy = Automatic
+
+	column UnidadeUnificadaid
+		dataType: int64
+		formatString: 0
+		lineageTag: bdb2fa3a-3fbc-4a5b-bafb-5ddd3f3f8182
+		summarizeBy: sum
+		sourceColumn: UnidadeUnificadaid
+
+		annotation SummarizationSetBy = Automatic
+
+	column MetaPME
+		dataType: int64
+		formatString: 0
+		lineageTag: 66ae9993-5ff7-4973-9245-b6736211d27c
+		summarizeBy: sum
+		sourceColumn: MetaPME
+
+		annotation SummarizationSetBy = Automatic
+
+	column Regional
+		dataType: string
+		lineageTag: e930e90e-9020-4f25-ba4b-99fad8d69cdb
+		summarizeBy: none
+		sourceColumn: Regional
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Unidade = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database(Servidor, Banco),
+				    bi_view_unidade = Fonte{[Schema="bi",Item="view_unidade"]}[Data]
+				in
+				    bi_view_unidade
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+
