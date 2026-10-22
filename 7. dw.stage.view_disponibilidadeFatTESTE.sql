@@ -52,6 +52,6 @@ LEFT JOIN (
                                 END AS Chave) N    
           ) C    
        ON C.NumeroNormalizado COLLATE DATABASE_DEFAULT = LTRIM(RTRIM(D.contrato)) COLLATE DATABASE_DEFAULT    
-LEFT JOIN disponibilidadeZCFULL ZC    
+LEFT JOIN stage.dbo.disponibilidadeZCFULL ZC    
        ON ZC.dt_base = D.dt_base    
       AND ZC.TAG COLLATE DATABASE_DEFAULT = D.TAG COLLATE DATABASE_DEFAULT
