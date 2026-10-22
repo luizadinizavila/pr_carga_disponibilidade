@@ -1,5 +1,9 @@
-CREATE SYNONYM unidade
-FOR [AGECLUSQL01\SISLOC].[dbsislocsalvador].[dbo].[unidade];
+EXEC dbo.pr_defineSinonimo2
+    @sinonimo = 'unidade',
+    @bdOrigem = '[AGECLUSQL01\SISLOC].[dbsislocsalvador]',
+    @schemaOrigem = 'dbo';
 
-CREATE SYNONYM patrimon
-FOR [AGECLUSQL01\SISLOC].[dbsislocsalvador].[dbo].[patrimon];
+EXEC dbo.pr_defineSinonimo2
+    @sinonimo = 'patrimon',
+    @bdOrigem = '[AGECLUSQL01\SISLOC].[dbsislocsalvador]',
+    @schemaOrigem = 'dbo';

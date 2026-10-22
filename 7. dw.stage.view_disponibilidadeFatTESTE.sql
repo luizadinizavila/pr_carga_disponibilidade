@@ -52,6 +52,6 @@ LEFT JOIN (
                                 END AS Chave) N    
           ) C    
        ON C.NumeroNormalizado COLLATE DATABASE_DEFAULT = LTRIM(RTRIM(D.contrato)) COLLATE DATABASE_DEFAULT    
-LEFT JOIN [AGECLUSQL01\SISLOC].[insix_reports].[dbo].[DISPONIBILIDADE_PATRIMONIO_ZC] ZC    
+LEFT JOIN disponibilidadeZCFULL ZC    
        ON ZC.dt_base = D.dt_base    
       AND ZC.TAG COLLATE DATABASE_DEFAULT = D.TAG COLLATE DATABASE_DEFAULT
